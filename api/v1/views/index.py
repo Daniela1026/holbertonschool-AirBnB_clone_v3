@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-idex for api
+index api
 """
 from flask import jsonify, Flask
 from api.v1.views import app_views
@@ -29,8 +29,8 @@ def counter():
     }
 
     """
-    table.status_code = 200
-    table.content_type = "application/json"
+    status_code = 200
+   and content_type = "application/json"
     """
     count = jsonify(table)
     return count
